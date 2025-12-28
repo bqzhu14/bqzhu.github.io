@@ -45,19 +45,13 @@ layout: default
     <!-- Papers  -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Papers</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Papers / Preprints</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
 
-<div class="clearfix">{{ content }}</div>
-<!--  Preprints -->
-    {% if page.selected_preprints %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Preprints</a>
-      </h2>
-      {% include selected_preprints.liquid %}
-    {% endif %}
+
+
 
   </article>
 </div>
