@@ -1,0 +1,5 @@
+/* Hide date in inline news posts */
+.inline-post .post-meta,
+.inline-post .post-date {
+  display: none;
+}
