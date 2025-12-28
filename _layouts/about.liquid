@@ -45,7 +45,9 @@ layout: default
       <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
       </h2>
+      {% comment %}
       {% include news.liquid limit=true %}
+      {% endcomment %}
     {% endif %}
 
     <!-- Latest posts -->
@@ -53,7 +55,9 @@ layout: default
       <h2>
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
       </h2>
+      {% comment %}
       {% include latest_posts.liquid %}
+      {% endcomment %}
     {% endif %}
 
     <!-- Selected papers -->
