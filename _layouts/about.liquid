@@ -42,10 +42,18 @@ layout: default
 
 
 
-    <!-- Papers / Preprints -->
+    <!-- Papers  -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Papers / Preprints</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Papers</a>
+      </h2>
+      {% include selected_papers.liquid %}
+    {% endif %}
+
+<!--  Preprints -->
+    {% if page.selected_papers %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Preprints</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
