@@ -5,4 +5,6 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+<a href="/publications/#Zhu25">
+Arithmetic Siegel--Weil formula on X_0(N)
+</a>
