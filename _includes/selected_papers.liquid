@@ -1,18 +1,20 @@
-{% assign papers = site.bibliography | where_exp:"item","item.selected == true" %}
+{% assign papers = site.bibliography %}
 
 <div class="publications">
   {% for item in papers %}
-    <p>
-      <!-- 标题渲染 -->
-      {% if item.url %}
-        <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
-      {% else %}
-        {{ item.title }}
-      {% endif %}
-      ({{ item.year }})
-      {% if item.abstract %}
-        <br>{{ item.abstract }}
-      {% endif %}
-    </p>
+    {% if item.entrytype == "article" %}
+      <p>
+        {% if item.url %}
+          <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
+        {% else %}
+          {{ item.title }}
+        {% endif %}
+        ({{ item.year }})
+        {% if item.abstract %}
+          <br>{{ item.abstract }}
+        {% endif %}
+      </p>
+    {% endif %}
   {% endfor %}
 </div>
+
