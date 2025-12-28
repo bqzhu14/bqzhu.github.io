@@ -29,7 +29,7 @@ latest_posts:
 
 I am an instructor at Department of Mathematics, Princeton University.
 
-I graduated from Columbia under the supervision of Professor Chao Li in 2025.
+I graduated from Columbia under the supervision of Professor [Chao Li](https://www.math.columbia.edu/~chaoli/) in 2025.
 
-I'm interested in Number theory, especially arithmetic intersection theory and its relation to analytic objects like L-functions. Currently I am studying special cycles and related topics on Shimura varieties and Rapoport--Zink spaces. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm interested in Number theory, especially arithmetic intersection theory and its relation to analytic objects like L-functions. Currently I am studying special cycles and related topics on Shimura varieties and Rapoport--Zink spaces.
 
