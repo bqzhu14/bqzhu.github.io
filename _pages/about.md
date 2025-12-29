@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: bqzhu@math.princeton.edu / bz6439@princeton.edu
 
 profile:
   align: right
@@ -27,9 +26,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an Instructor of Mathematics at Princeton University.
-
-I graduated from [Columbia](https://www.math.columbia.edu/) under the supervision of Professor [Chao Li](https://www.math.columbia.edu/~chaoli/) in 2025. Here is my [CV]({{ '/assets/pdf/MyCV.pdf' | relative_url }}).
+I am an Instructor of Mathematics at Princeton University. I graduated from [Columbia](https://www.math.columbia.edu/) under the supervision of Professor [Chao Li](https://www.math.columbia.edu/~chaoli/) in 2025. Here is my [CV]({{ '/assets/pdf/MyCV.pdf' | relative_url }}).
 
 I'm interested in Number theory, especially arithmetic intersection theory and its relation to analytic objects like L-functions. Currently I am studying special cycles and related topics on Shimura varieties and Rapoport--Zink spaces.
+
+I can be reached at bqzhu@math.princeton.edu or bz6439@princeton.edu.
 
