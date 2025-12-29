@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an instructor at Department of Mathematics, Princeton University.
+I am an Instructor of Mathematics at Princeton University.
 
 I graduated from [Columbia](https://www.math.columbia.edu/) under the supervision of Professor [Chao Li](https://www.math.columbia.edu/~chaoli/) in 2025. Here is my [CV]({{ '/assets/pdf/MyCV.pdf' | relative_url }}).
 
