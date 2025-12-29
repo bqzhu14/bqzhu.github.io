@@ -12,13 +12,13 @@ At Princeton, I have taught
 
 At Columbia, I have taught
 
-    Summer 2025, Math S2010 Linear algebra
+    Summer 2025, Math S2010 Linear algebra <br>
     
-    Summer 2024, Math S1101 Calculus I
+    Summer 2024, Math S1101 Calculus I <br>
     
-    Spring 2024, Math 1003 College algebra and Analytic geometry
+    Spring 2024, Math 1003 College algebra and Analytic geometry <br>
     
-    Summer 2023, Math S1202 Calculus IV
+    Summer 2023, Math S1202 Calculus IV <br>
     
     
     
